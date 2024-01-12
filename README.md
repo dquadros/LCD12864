@@ -13,11 +13,19 @@ The connections between the Pi Pico and the display are as follows:
 
 ### Basic Test
 
-A simple test, using the [Pico board support by Earle F. Phillhoower III](https://github.com/earlephilhower/arduino-pico) (not the official Arduino support).
+Tests LCD controller initialization and simple (8x8) character display (the font is embedded in the program), using the [Pico board support by Earle F. Phillhoower III](https://github.com/earlephilhower/arduino-pico) (not the official Arduino support).
+
+### Font Dump
+
+A simple font ROM access test, using the [Pico board support by Earle F. Phillhoower III](https://github.com/earlephilhower/arduino-pico) (not the official Arduino support).
 
 ## Datasheets
 Files in this directory come from the internet, I claim no copyright for them.
 
-* Dimensions.png: display board dimensions, from sellers page.
+* LCD_Specs.png: display board dimensions and pinout, from sellers page.
 * ER3805-1.pdf: datasheet for the memory chip with fonts (marked as 16S1Y).
 * st7565r.pdf: datasheet for the display controller.
+
+## Fritzing
+
+My Fritzing component for the LCD.
