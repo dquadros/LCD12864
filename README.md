@@ -19,6 +19,10 @@ Tests LCD controller initialization and simple (8x8) character display (the font
 
 A simple font ROM access test, using the [Pico board support by Earle F. Phillhoower III](https://github.com/earlephilhower/arduino-pico) (not the official Arduino support).
 
+### UseRomFont
+
+A remix of the two previous tests, this program writes text using the ASCII 7x8 font in the Rom.  Uses the [Pico board support by Earle F. Phillhoower III](https://github.com/earlephilhower/arduino-pico) (not the official Arduino support).
+
 ## Datasheets
 Files in this directory come from the internet, I claim no copyright for them.
 
